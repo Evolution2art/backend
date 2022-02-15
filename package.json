@@ -1,4 +1,5 @@
 {
+  "bin": "server.js",
   "name": "backend",
   "private": true,
   "version": "0.1.0",
