@@ -71,6 +71,24 @@
     },
     "sold": {
       "type": "boolean"
+    },
+    "species": {
+      "type": "string"
+    },
+    "age": {
+      "type": "string"
+    },
+    "dimensions": {
+      "type": "string"
+    },
+    "origin": {
+      "type": "string"
+    },
+    "quality": {
+      "type": "string"
+    },
+    "new": {
+      "type": "date"
     }
   }
 }
