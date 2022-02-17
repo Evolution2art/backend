@@ -40,8 +40,8 @@
       "targetField": "title"
     },
     "categories": {
-      "collection": "category",
-      "via": "products"
+      "via": "products",
+      "collection": "category"
     },
     "Custom_field": {
       "type": "component",
@@ -68,6 +68,9 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "sold": {
+      "type": "boolean"
     }
   }
 }
