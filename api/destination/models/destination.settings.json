@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "destinations",
+  "info": {
+    "name": "Destination",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": false,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "country": {
+      "type": "country",
+      "columnType": "CHAR(2)"
+    },
+    "shippings": {
+      "via": "destinations",
+      "collection": "shipping"
+    }
+  }
+}

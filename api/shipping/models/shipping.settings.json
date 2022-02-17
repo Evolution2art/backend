@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "shippings",
+  "info": {
+    "name": "Shipping",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": false,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Rate": {
+      "type": "decimal"
+    },
+    "package": {
+      "model": "package"
+    },
+    "destinations": {
+      "collection": "destination",
+      "via": "shippings",
+      "dominant": true
+    }
+  }
+}
