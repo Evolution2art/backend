@@ -14,8 +14,13 @@
     "name": {
       "type": "string"
     },
-    "weight": {
-      "type": "decimal"
+    "fossils": {
+      "collection": "fossil",
+      "via": "package"
+    },
+    "rates": {
+      "collection": "rate",
+      "via": "package"
     }
   }
 }

@@ -5,7 +5,12 @@ const path = require("path");
 
 const {
   categories,
-  products
+  countries,
+  destinations,
+  rates,
+  packages,
+  qualities,
+  fossils
 } = require("../../data/data");
 
 const findPublicRole = async () => {
@@ -28,12 +33,12 @@ const setDefaultPermissions = async () => {
   await Promise.all(
     permissions_applications.map(p =>
       strapi
-      .query("permission", "users-permissions")
-      .update({
-        id: p.id
-      }, {
-        enabled: true
-      })
+        .query("permission", "users-permissions")
+        .update({
+          id: p.id
+        }, {
+          enabled: true
+        })
     )
   );
 };
@@ -80,7 +85,7 @@ const createSeedData = async (files) => {
     return image
   }
 
-
+  /* Models without relation data */
   const categoriesPromises = categories.map(({
     ...rest
   }) => {
@@ -89,20 +94,60 @@ const createSeedData = async (files) => {
     });
   });
 
+  const destinationPromises = destinations.map(({
+    ...rest
+  }) => {
+    return strapi.services.destination.create({
+      ...rest
+    });
+  });
 
-  const productsPromises = products.map(async product => {
-    const image = handleFiles(product)
+  const packagePromises = packages.map(({
+    ...rest
+  }) => {
+    return strapi.services.package.create({
+      ...rest
+    });
+  });
+
+  /* Models with relations */
+  const countryPromises = countries.map(({
+    ...rest
+  }) => {
+    return strapi.services.country.create({
+      ...rest
+    });
+  });
+
+  const ratePromises = rates.map(({
+    ...rest
+  }) => {
+    return strapi.services.rate.create({
+      ...rest
+    });
+  });
+
+  const qualityPromises = qualities.map(({
+    ...rest
+  }) => {
+    return strapi.services.quality.create({
+      ...rest
+    });
+  });
+
+  const fossilsPromises = fossils.map(async fossil => {
+    const image = handleFiles(fossil)
 
     const files = {
       image
     };
 
     try {
-      const entry = await strapi.query('product').create(product);
+      const entry = await strapi.query('fossil').create(fossil);
 
       if (files) {
         await strapi.entityService.uploadFiles(entry, files, {
-          model: 'product'
+          model: 'fossil'
         });
       }
     } catch (e) {
@@ -112,7 +157,12 @@ const createSeedData = async (files) => {
   });
 
   await Promise.all(categoriesPromises);
-  await Promise.all(productsPromises);
+  await Promise.all(destinationPromises);
+  await Promise.all(packagePromises);
+  await Promise.all(countryPromises);
+  await Promise.all(ratePromises);
+  await Promise.all(qualityPromises);
+  await Promise.all(fossilsPromises);
 };
 
 module.exports = async () => {

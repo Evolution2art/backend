@@ -18,11 +18,6 @@
       "type": "uid",
       "targetField": "name"
     },
-    "products": {
-      "via": "categories",
-      "collection": "product",
-      "dominant": true
-    },
     "description": {
       "type": "richtext"
     },
@@ -30,13 +25,15 @@
       "model": "file",
       "via": "related",
       "allowedTypes": [
-        "images",
-        "files",
-        "videos"
+        "images"
       ],
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "fossils": {
+      "collection": "fossil",
+      "via": "category"
     }
   }
 }
