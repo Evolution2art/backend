@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "qualities",
+  "info": {
+    "name": "quality"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "state": {
+      "type": "string"
+    },
+    "fossils": {
+      "collection": "fossil",
+      "via": "quality"
+    }
+  }
+}
