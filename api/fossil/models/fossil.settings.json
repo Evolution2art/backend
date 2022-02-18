@@ -63,6 +63,12 @@
     "sold": {
       "type": "boolean"
     },
+    "promotion": {
+      "type": "string"
+    },
+    "priceOnRequest": {
+      "type": "boolean"
+    },
     "species": {
       "type": "string"
     },

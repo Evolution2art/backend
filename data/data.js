@@ -61,6 +61,7 @@ module.exports = {
       title: "Spectacular Spinosaurus hand",
       description: "Some info",
       price: null,
+      priceOnRequest: true,
       slug: "spectacular-spinosaurus-hand",
       status: "published",
       sold: false,
@@ -79,6 +80,7 @@ module.exports = {
       title: "Leg bone of a Diplodocus",
       description: "A very nice leg bone od the famous Diplodocus Dinosaur.",
       price: null,
+      priceOnRequest: true,
       slug: "leg-bone-of-a-diplodocus",
       status: "published",
       sold: null,
@@ -204,7 +206,7 @@ module.exports = {
       id: 9,
       title: "Tyrannosaurus rex tooth",
       description: "A very top quality tooth of the famous T-Rex",
-      price: null,
+      priceOnRequest: true,
       slug: "tyrannosaurus-rex-tooth",
       status: "published",
       sold: null,
@@ -294,7 +296,7 @@ module.exports = {
       id: 14,
       title: "Full slice of Seymchan palasite",
       description: "Description: Phenomenal full slice of the famous Seymchan pallasite. The pallasite was first discovered in 1967 and was officially listed in the Meteoritical Bulletin in 1968. The Seymchan meteorite has dense zones of olivine chrystals alternated with pure Ni/Fe zones. The nicest slices are those that have a combination of both showing as well the very bride olivine as the very expressive Widmanstatten. The slice has a weight of 1506 gr and measures 39 x 27 cm  - 15.4” x 10.6”.",
-      price: null,
+      priceOnRequest: true,
       slug: "full-slice-of-seymchan-palasite",
       status: "published",
       sold: null,
@@ -595,12 +597,12 @@ module.exports = {
   qualities: [
     {
       id: 1,
-      name: "Museum quality",
+      state: "Museum quality",
       slug: "museum-quality"
     },
     {
       id: 2,
-      name: "Very good",
+      state: "Very good",
       slug: "very-good"
     }
   ]
