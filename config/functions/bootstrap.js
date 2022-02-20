@@ -69,6 +69,8 @@ const createSeedData = async (files) => {
 
   const handleFiles = (data) => {
 
+    console.log("handleFiles with data", data)
+
     var file = files.find(x => x.includes(data.slug));
     file = `./data/uploads/${file}`;
 
@@ -86,13 +88,35 @@ const createSeedData = async (files) => {
   }
 
   /* Models without relation data */
-  const categoriesPromises = categories.map(({
-    ...rest
-  }) => {
-    return strapi.services.category.create({
-      ...rest
-    });
+  // const categoriesPromises = categories.map(({
+  //   ...rest
+  // }) => {
+  //   return strapi.services.category.create({
+  //     ...rest
+  //   });
+  // });
+
+  const categoriesPromises = categories.map(async category => {
+    const image = handleFiles(category)
+
+    const files = {
+      icon: image
+    };
+
+    try {
+      const entry = await strapi.query('category').create(category);
+
+      if (files) {
+        await strapi.entityService.uploadFiles(entry, files, {
+          model: 'category'
+        });
+      }
+    } catch (e) {
+      console.log(e);
+    }
+
   });
+
 
   const destinationPromises = destinations.map(({
     ...rest
