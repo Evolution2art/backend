@@ -1,9 +1,8 @@
 {
-  "kind": "singleType",
-  "collectionName": "contacts",
+  "kind": "collectionType",
+  "collectionName": "medias",
   "info": {
-    "name": "Contact",
-    "description": ""
+    "name": "media"
   },
   "options": {
     "increments": true,
@@ -15,17 +14,19 @@
     "title": {
       "type": "string"
     },
-    "text": {
-      "type": "richtext"
+    "when": {
+      "type": "date"
     },
-    "email": {
-      "type": "email"
+    "link": {
+      "type": "string"
     },
-    "background": {
+    "media": {
       "collection": "file",
       "via": "related",
       "allowedTypes": [
-        "images"
+        "images",
+        "files",
+        "videos"
       ],
       "plugin": "upload",
       "required": false,

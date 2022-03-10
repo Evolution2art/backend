@@ -1,8 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "contacts",
+  "collectionName": "presses",
   "info": {
-    "name": "Contact",
+    "name": "press",
     "description": ""
   },
   "options": {
@@ -15,17 +15,16 @@
     "title": {
       "type": "string"
     },
-    "text": {
+    "description": {
       "type": "richtext"
     },
-    "email": {
-      "type": "email"
-    },
-    "background": {
+    "gallery": {
       "collection": "file",
       "via": "related",
       "allowedTypes": [
-        "images"
+        "images",
+        "files",
+        "videos"
       ],
       "plugin": "upload",
       "required": false,

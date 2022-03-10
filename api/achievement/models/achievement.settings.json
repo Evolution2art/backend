@@ -1,8 +1,8 @@
 {
-  "kind": "singleType",
-  "collectionName": "contacts",
+  "kind": "collectionType",
+  "collectionName": "achievements",
   "info": {
-    "name": "Contact",
+    "name": "achievement",
     "description": ""
   },
   "options": {
@@ -15,21 +15,24 @@
     "title": {
       "type": "string"
     },
-    "text": {
+    "description": {
       "type": "richtext"
     },
-    "email": {
-      "type": "email"
-    },
-    "background": {
+    "gallery": {
       "collection": "file",
       "via": "related",
       "allowedTypes": [
-        "images"
+        "images",
+        "files",
+        "videos"
       ],
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "when": {
+      "type": "date",
+      "required": true
     }
   }
 }
