@@ -85,6 +85,7 @@
       "type": "date"
     },
     "category": {
+      "via": "fossils",
       "model": "category"
     },
     "package": {
