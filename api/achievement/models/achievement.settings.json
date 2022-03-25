@@ -30,6 +30,9 @@
       "required": false,
       "pluginOptions": {}
     },
+    "isDark": {
+      "type": "boolean"
+    },
     "when": {
       "type": "date",
       "required": true
