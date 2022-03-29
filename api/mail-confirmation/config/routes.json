@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/mail-confirmation",
+      "handler": "mail-confirmation.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/mail-confirmation",
+      "handler": "mail-confirmation.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/mail-confirmation",
+      "handler": "mail-confirmation.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
