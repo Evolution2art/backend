@@ -2,24 +2,24 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/mail-confirmation",
-      "handler": "mail-confirmation.find",
+      "path": "/mail-templates",
+      "handler": "mail-templates.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/mail-confirmation",
-      "handler": "mail-confirmation.update",
+      "path": "/mail-templates",
+      "handler": "mail-templates.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/mail-confirmation",
-      "handler": "mail-confirmation.delete",
+      "path": "/mail-templates",
+      "handler": "mail-templates.delete",
       "config": {
         "policies": []
       }
