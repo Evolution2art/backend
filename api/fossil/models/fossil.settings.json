@@ -8,7 +8,7 @@
   "options": {
     "increments": true,
     "timestamps": true,
-    "draftAndPublish": false
+    "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
@@ -93,6 +93,9 @@
     },
     "quality": {
       "model": "quality"
+    },
+    "isValid": {
+      "type": "boolean"
     }
   }
 }
