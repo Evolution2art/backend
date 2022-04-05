@@ -112,3 +112,19 @@ exports
 *.cache
 build
 .strapi-updater.json
+
+############################
+# Evolution2Art
+############################
+
+.commit
+data/uploads
+.editorconfig
+.env.local
+.env.example
+.eslintignore
+.eslintrc
+README.md
+data/fossils.json
+favicon.ico
+
