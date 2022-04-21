@@ -7,8 +7,8 @@ module.exports = [
       origin: [
         "http://localhost",
         "http://localhost:1337",
+        "http://localhost:1338",
         "http://localhost:3000",
-        "http://localhost:8000",
         "https://evolution2art.com",
         "https://www.evolution2art.com",
         "https://new.evolution2art.com",
