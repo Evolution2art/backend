@@ -1,0 +1,106 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fossils",
+  "info": {
+    "singularName": "fossil",
+    "pluralName": "fossils",
+    "displayName": "Fossil",
+    "name": "fossil",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": false
+    },
+    "description": {
+      "type": "text"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "draft",
+        "published"
+      ],
+      "default": "published",
+      "required": false
+    },
+    "gallery": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "sold": {
+      "type": "boolean"
+    },
+    "promotion": {
+      "type": "string"
+    },
+    "priceOnRequest": {
+      "type": "boolean"
+    },
+    "species": {
+      "type": "string"
+    },
+    "age": {
+      "type": "string"
+    },
+    "dimensions": {
+      "type": "string"
+    },
+    "origin": {
+      "type": "string"
+    },
+    "new": {
+      "type": "date"
+    },
+    "category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::category.category",
+      "inversedBy": "fossils"
+    },
+    "package": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::package.package",
+      "inversedBy": "fossils"
+    },
+    "quality": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::quality.quality",
+      "inversedBy": "fossils"
+    },
+    "isValid": {
+      "type": "boolean"
+    },
+    "reserved": {
+      "type": "boolean"
+    }
+  }
+}

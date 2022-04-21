@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "presses",
+  "info": {
+    "singularName": "press",
+    "pluralName": "presses",
+    "displayName": "Press",
+    "name": "press"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "gallery": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

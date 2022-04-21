@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Dinosauria",
+    "slug": "dinosauria",
+    "title": "Dinosauria - Reptilia",
+    "description": "Testing formatted text",
+    "icon": "dinosauria_reptilia-light.png",
+    "iconDark": "dinosauria_reptilia-dark.png"
+  },
+  {
+    "id": 2,
+    "name": "Pisces",
+    "slug": "pisces",
+    "title": null,
+    "description": null,
+    "icon": "pisces_f1a7251068.png",
+    "iconDark": "pisces_dark_43d0578942.png"
+  },
+  {
+    "id": 3,
+    "name": "Arthropoda",
+    "slug": "arthropoda",
+    "title": "Arthropoda - Trilobita",
+    "description": null,
+    "icon": "arthropoda_trilobita-light.png",
+    "iconDark": "arthropoda_trilobita-dark.png"
+  },
+  {
+    "id": 4,
+    "name": "Mammals",
+    "slug": "mammals",
+    "title": null,
+    "description": null,
+    "icon": "mammals_ice_age-light.png",
+    "iconDark": "mammals_ice_age-dark.png"
+  },
+  {
+    "id": 5,
+    "name": "Miscellaneous",
+    "slug": "miscellaneous",
+    "title": null,
+    "description": null,
+    "icon": "miscellaneous-light.png",
+    "iconDark": "miscellaneous-dark.png"
+  },
+  {
+    "id": 6,
+    "name": "Meteorites",
+    "slug": "meteorites",
+    "title": null,
+    "description": null,
+    "icon": "meteorites-light.png",
+    "iconDark": "meteorites-dark.png"
+  }
+]

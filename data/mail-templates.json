@@ -1,0 +1,16 @@
+{
+  "id": 1,
+  "publishedAt": "2022-03-30T14:47:30.461Z",
+  "createdAt": "2022-03-30T14:47:26.367Z",
+  "updatedAt": "2022-03-30T14:47:30.480Z",
+  "quote": {
+    "id": 1,
+    "subject": "Price quote for \"{fossil.title}\"",
+    "body": "Dear,\n\ncan you make us a quote for \"{fossil.title}\"?\nLink: {fossil.url}\n\n"
+  },
+  "shipping": {
+    "id": 2,
+    "subject": "Shipping quote request for \"{fossil.title}\"",
+    "body": "Dear,\n\ncan you make us a shipping quote for \"{fossil.title}\"?\nLink: {fossil.url}\n\nThe shipping destination is as follows:\n...\n\n"
+  }
+}

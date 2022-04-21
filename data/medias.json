@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Op bezoek bij Luc",
+    "when": "2021-12-10",
+    "link": "https://www.hln.be/gent/op-bezoek-bij-luc-55-een-van-enige-dino-preparateurs-in-ons-land-grote-dinos-brengen-al-snel-800-000-tot-meer-dan-een-miljoen-euro-op~a2ae8dc5/210559025/",
+    "publishedAt": "2022-03-29T08:37:08.851Z",
+    "createdAt": "2022-03-27T10:18:48.211Z",
+    "updatedAt": "2022-04-01T09:50:19.109Z",
+    "media": ["Image 01-04-2022 at 11.48.jpg"]
+  },
+  {
+    "id": 2,
+    "title": "Platecacus",
+    "when": "2021-12-17",
+    "link": "https://youtube.com/shorts/-74LSAQJScE?feature=share",
+    "publishedAt": "2022-03-29T08:37:17.347Z",
+    "createdAt": "2022-03-29T08:25:43.611Z",
+    "updatedAt": "2022-03-29T08:41:58.320Z",
+    "media": ["LUC19182.jpg"]
+  },
+  {
+    "id": 3,
+    "title": "Triceratops at History Land",
+    "when": "2019-10-31",
+    "link": "https://www.youtube.com/watch?v=nXBAzCzayi8",
+    "publishedAt": "2022-03-29T08:36:58.972Z",
+    "createdAt": "2022-03-29T08:36:27.427Z",
+    "updatedAt": "2022-03-29T08:36:58.983Z",
+    "media": ["IMG_9473.jpg"]
+  },
+  {
+    "id": 4,
+    "title": "Foot of a diplodocus",
+    "when": null,
+    "link": "https://www.ad.nl/voorne-putten/kijk-de-achterpoot-van-een-echte-dinosaurus~abfc3fe6/?utm_source=email&utm_medium=sendafriend&utm_campaign=socialsharing_web",
+    "publishedAt": "2022-03-29T08:53:22.091Z",
+    "createdAt": "2022-03-29T08:53:16.952Z",
+    "updatedAt": "2022-03-29T08:53:22.098Z",
+    "media": ["Screenshot 2022-03-29 at 10.45.54.jpeg"]
+  }
+]

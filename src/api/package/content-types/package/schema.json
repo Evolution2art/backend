@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "packages",
+  "info": {
+    "singularName": "package",
+    "pluralName": "packages",
+    "displayName": "Package",
+    "name": "package"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": false,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "rates": {
+      "target": "api::rate.rate",
+      "type": "relation",
+      "relation": "oneToMany",
+      "mappedBy": "package"
+    },
+    "fossils": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::fossil.fossil",
+      "mappedBy": "package"
+    }
+  }
+}

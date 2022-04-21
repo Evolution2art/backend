@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "achievements",
+  "info": {
+    "singularName": "achievement",
+    "pluralName": "achievements",
+    "displayName": "Achievement",
+    "name": "achievement"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "gallery": {
+      "allowedTypes": ["images"],
+      "type": "media",
+      "multiple": true
+    },
+    "isDark": {
+      "type": "boolean"
+    },
+    "when": {
+      "type": "date",
+      "required": false
+    }
+  }
+}

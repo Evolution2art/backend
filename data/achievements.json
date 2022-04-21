@@ -1,0 +1,154 @@
+[
+  {
+    "id": 3,
+    "title": "Hoplophoneus sabercat ",
+    "description": null,
+    "isDark": true,
+    "when": "2022-03-20",
+    "publishedAt": "2022-03-14T16:53:06.484Z",
+    "createdAt": "2022-03-14T16:52:39.435Z",
+    "updatedAt": "2022-04-01T09:30:34.334Z"
+  },
+  {
+    "id": 4,
+    "title": "Maximus our Thescellosaurus",
+    "description": null,
+    "isDark": null,
+    "when": "2022-03-21",
+    "publishedAt": "2022-03-15T08:08:54.019Z",
+    "createdAt": "2022-03-14T16:53:37.443Z",
+    "updatedAt": "2022-03-16T08:13:48.454Z",
+    "gallery": ["Dino_kleine_bestanden_10_d3ae0c6a28.jpeg"]
+  },
+  {
+    "id": 5,
+    "title": "Archaeotherium mortoni",
+    "description": null,
+    "isDark": null,
+    "when": "2022-03-17",
+    "publishedAt": "2022-03-15T08:34:25.205Z",
+    "createdAt": "2022-03-15T08:34:12.799Z",
+    "updatedAt": "2022-03-16T08:20:31.568Z",
+    "gallery": ["Dino_kleine_bestanden_20_e9bd7bba6d.jpg"]
+  },
+  {
+    "id": 6,
+    "title": "Hadrosaurus foot",
+    "description": null,
+    "isDark": null,
+    "when": "2022-03-23",
+    "publishedAt": "2022-03-15T08:46:57.804Z",
+    "createdAt": "2022-03-15T08:34:53.191Z",
+    "updatedAt": "2022-04-04T08:26:16.975Z",
+    "gallery": ["DSC_4606_aefca2e92c.JPG"]
+  },
+  {
+    "id": 7,
+    "title": "Platecarpus skull",
+    "description": null,
+    "isDark": null,
+    "when": "2022-03-25",
+    "publishedAt": "2022-03-15T08:36:15.194Z",
+    "createdAt": "2022-03-15T08:36:10.283Z",
+    "updatedAt": "2022-03-16T08:20:14.290Z",
+    "gallery": ["DSC_5098_3de5b82ecb.jpeg"]
+  },
+  {
+    "id": 8,
+    "title": "Triceratops prorsus ",
+    "description": null,
+    "isDark": null,
+    "when": "2022-03-25",
+    "publishedAt": "2022-04-01T14:41:23.552Z",
+    "createdAt": "2022-03-15T08:45:16.959Z",
+    "updatedAt": "2022-04-04T08:30:27.586Z",
+    "gallery": ["IMG_9896_2_e025f07c51.jpg"]
+  },
+  {
+    "id": 9,
+    "title": "Tail section of a Diplodocus",
+    "description": null,
+    "isDark": null,
+    "when": "2022-03-26",
+    "publishedAt": "2022-03-15T08:46:36.944Z",
+    "createdAt": "2022-03-15T08:46:22.811Z",
+    "updatedAt": "2022-03-15T08:46:36.955Z",
+    "gallery": ["IMG_1939_b8058656d5.jpg"]
+  },
+  {
+    "id": 10,
+    "title": "Triceratops arm",
+    "description": null,
+    "isDark": null,
+    "when": "2022-03-15",
+    "publishedAt": null,
+    "createdAt": "2022-03-15T08:47:59.539Z",
+    "updatedAt": "2022-04-01T09:31:17.042Z",
+    "gallery": ["DSC_1166_8b4dd8f418.jpeg"]
+  },
+  {
+    "id": 11,
+    "title": "Nothosaurus",
+    "description": null,
+    "isDark": null,
+    "when": "2022-03-27",
+    "publishedAt": null,
+    "createdAt": "2022-03-15T08:49:02.552Z",
+    "updatedAt": "2022-04-01T09:26:30.005Z",
+    "gallery": ["DSC_1837_d506fe947b.jpeg"]
+  },
+  {
+    "id": 12,
+    "title": "Giant Camarasaurus leg",
+    "description": null,
+    "isDark": null,
+    "when": "2022-03-28",
+    "publishedAt": null,
+    "createdAt": "2022-03-15T08:49:48.171Z",
+    "updatedAt": "2022-04-01T09:26:44.661Z",
+    "gallery": ["IMG_1144_b02c7423fd.JPEG"]
+  },
+  {
+    "id": 14,
+    "title": "Edmontosaurus jaw with complete tooth battery",
+    "description": null,
+    "isDark": null,
+    "when": "2022-03-29",
+    "publishedAt": "2022-03-15T08:52:52.074Z",
+    "createdAt": "2022-03-15T08:52:46.233Z",
+    "updatedAt": "2022-03-16T08:13:10.782Z",
+    "gallery": ["DSC_0032_66a7825ecc.JPEG"]
+  },
+  {
+    "id": 15,
+    "title": "Arm with killing claws of the Allosaurus fragilis",
+    "description": null,
+    "isDark": true,
+    "when": "2022-03-30",
+    "publishedAt": null,
+    "createdAt": "2022-03-15T08:53:38.842Z",
+    "updatedAt": "2022-03-31T08:58:23.580Z",
+    "gallery": ["b43fa652_c888_4ff9_a4ce_0104c812e0cb_f348662830.jpg"]
+  },
+  {
+    "id": 16,
+    "title": "Kansas Platecarpus",
+    "description": null,
+    "isDark": true,
+    "when": "2022-03-31",
+    "publishedAt": "2022-03-15T08:55:02.684Z",
+    "createdAt": "2022-03-15T08:54:57.206Z",
+    "updatedAt": "2022-03-31T08:48:19.239Z",
+    "gallery": ["LUC_19182_copy_132c6672f8.jpeg"]
+  },
+  {
+    "id": 17,
+    "title": "Jaw of an Allosaurus fragilis",
+    "description": null,
+    "isDark": null,
+    "when": "2022-04-01",
+    "publishedAt": "2022-03-15T08:56:18.049Z",
+    "createdAt": "2022-03-15T08:55:53.201Z",
+    "updatedAt": "2022-04-04T08:32:26.059Z"
+  }
+]

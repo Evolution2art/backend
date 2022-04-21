@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "rates",
+  "info": {
+    "singularName": "rate",
+    "pluralName": "rates",
+    "displayName": "Rate",
+    "name": "rate"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": false,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "price": {
+      "type": "decimal"
+    },
+    "package": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "inversedBy": "rates",
+      "target": "api::package.package"
+    },
+    "destination": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "inversedBy": "rates",
+      "target": "api::destination.destination"
+    }
+  }
+}

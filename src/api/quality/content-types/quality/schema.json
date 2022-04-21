@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "qualities",
+  "info": {
+    "singularName": "quality",
+    "pluralName": "qualities",
+    "displayName": "Quality",
+    "name": "quality"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "state": {
+      "type": "string"
+    },
+    "fossils": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::fossil.fossil",
+      "mappedBy": "quality"
+    }
+  }
+}

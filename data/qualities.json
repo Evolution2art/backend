@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "state": "Museum quality",
+    "createdAt": "2022-02-20T00:11:43.085Z",
+    "updatedAt": "2022-02-20T00:11:43.085Z"
+  },
+  {
+    "id": 2,
+    "state": "Very good",
+    "createdAt": "2022-02-20T00:11:43.101Z",
+    "updatedAt": "2022-02-20T00:11:43.101Z"
+  }
+]
