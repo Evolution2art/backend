@@ -14,7 +14,7 @@ module.exports = {
     const isValid = !!data.package && !!data.category && !!data.quality;
     event.params.data.isValid = isValid;
     if (!isValid) {
-      event.params.data.published_at = null;
+      event.params.data.publishedAt = null;
     }
   },
 };
