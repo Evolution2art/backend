@@ -83,9 +83,6 @@
       "target": "api::quality.quality",
       "inversedBy": "fossils"
     },
-    "isValid": {
-      "type": "boolean"
-    },
     "reserved": {
       "type": "boolean"
     }
