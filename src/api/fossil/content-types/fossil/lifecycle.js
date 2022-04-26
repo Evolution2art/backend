@@ -9,11 +9,11 @@ module.exports = {
   // set isValid only if all relations are set
   // + unpublish item if invalid
   async beforeUpdate(event) {
-    let { data } = event.params;
+    const { data } = event.params;
     const isValid = !!data.package && !!data.category && !!data.quality;
-    data.isValid = isValid;
-    if (!isValid) {
-      data.published_at = null;
+    event.params.data.isValid = isValid;
+    if (!isValid && data.published_at) {
+      event.params.data.published_at = null;
     }
   },
 };
