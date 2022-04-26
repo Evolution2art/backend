@@ -12,7 +12,6 @@ module.exports = {
     const { data } = event.params;
     console.log("Lifecycle beforeUpdate called with data", data);
     const isValid = !!data.package && !!data.category && !!data.quality;
-    event.params.data.isValid = isValid;
     if (!isValid) {
       event.params.data.publishedAt = null;
     }
