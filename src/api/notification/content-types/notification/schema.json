@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "notifications",
+  "info": {
+    "singularName": "notification",
+    "pluralName": "notifications",
+    "displayName": "Notifications",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "addedToCart": {
+      "type": "component",
+      "repeatable": false,
+      "component": "notification.message"
+    },
+    "removedFromCart": {
+      "type": "component",
+      "repeatable": false,
+      "component": "notification.message"
+    },
+    "purchaseCompleted": {
+      "type": "component",
+      "repeatable": false,
+      "component": "notification.message"
+    },
+    "ordersCleared": {
+      "type": "component",
+      "repeatable": false,
+      "component": "notification.message"
+    }
+  }
+}
