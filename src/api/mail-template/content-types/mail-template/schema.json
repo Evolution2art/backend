@@ -8,9 +8,7 @@
     "name": "mail-templates"
   },
   "options": {
-    "increments": true,
-    "timestamps": true,
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {

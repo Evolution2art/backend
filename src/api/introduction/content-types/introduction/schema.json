@@ -8,9 +8,7 @@
     "name": "introduction"
   },
   "options": {
-    "increments": true,
-    "timestamps": true,
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
@@ -21,16 +19,12 @@
       "type": "richtext"
     },
     "background": {
-      "allowedTypes": [
-        "images"
-      ],
+      "allowedTypes": ["images"],
       "type": "media",
       "multiple": true
     },
     "backgroundDark": {
-      "allowedTypes": [
-        "images"
-      ],
+      "allowedTypes": ["images"],
       "type": "media",
       "multiple": true
     }

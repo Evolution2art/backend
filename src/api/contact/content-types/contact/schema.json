@@ -8,9 +8,7 @@
     "name": "contact"
   },
   "options": {
-    "increments": true,
-    "timestamps": true,
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
@@ -24,9 +22,7 @@
       "type": "email"
     },
     "background": {
-      "allowedTypes": [
-        "images"
-      ],
+      "allowedTypes": ["images"],
       "type": "media",
       "multiple": true
     },
