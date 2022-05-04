@@ -5,7 +5,8 @@
     "singularName": "media",
     "pluralName": "medias",
     "displayName": "Media",
-    "name": "media"
+    "name": "media",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -24,11 +25,15 @@
       "type": "string"
     },
     "content": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
+    },
+    "description": {
+      "type": "richtext"
     }
   }
 }
