@@ -47,6 +47,9 @@
     "promotion": {
       "type": "string"
     },
+    "promotionPrice": {
+      "type": "decimal"
+    },
     "priceOnRequest": {
       "type": "boolean"
     },

@@ -31,6 +31,11 @@
       "type": "component",
       "repeatable": false,
       "component": "notification.message"
+    },
+    "purchaseCancelled": {
+      "type": "component",
+      "repeatable": false,
+      "component": "notification.message"
     }
   }
 }
