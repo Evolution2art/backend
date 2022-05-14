@@ -10,7 +10,7 @@ module.exports = {
   // + unpublish item if invalid
   async beforeUpdate(event) {
     const { data } = event.params;
-    console.log("Lifecycle beforeUpdate called with data", data);
+    // console.log("Lifecycle beforeUpdate called with data", data);
     // skip if category, package, quality keys don't exist
     if ("package" in data && "category" in data && "quality" in data) {
       const isValid = !!data.package && !!data.category && !!data.quality;
