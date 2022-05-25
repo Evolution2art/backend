@@ -1,7 +1,7 @@
 {
   "collectionName": "components_mail_templates",
   "info": {
-    "name": "template",
+    "displayName": "template",
     "icon": "envelope",
     "description": ""
   },
