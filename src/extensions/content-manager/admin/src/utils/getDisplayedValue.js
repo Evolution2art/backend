@@ -3,7 +3,7 @@ import moment from "moment";
 import dateFormats from "./dateFormats";
 
 const getDisplayedValue = (type, value, name) => {
-  console.log("custom getDisplayedValues in use!");
+  // console.log("custom getDisplayedValues in use!");
   switch (toLower(type)) {
     case "string":
     case "text":
