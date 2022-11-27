@@ -93,7 +93,7 @@ function getFileData(fileName) {
 
 // Create an entry and attach files if there are any
 async function createEntry({ model, entry, files }) {
-  console.log(`Creating entry for ${model}`, entry, files);
+  // console.log(`Creating entry for ${model}`, entry, files);
   try {
     if (files) {
       for (const [key, fileOrFiles] of Object.entries(files)) {
